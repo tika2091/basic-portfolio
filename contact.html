@@ -4,84 +4,89 @@
 <head>
 <meta charsrt="utf-8">
 <title> Basic portfolio page</title>
-<link rel="stylesheet" type="text/style" href="asset/reset.css">
-<link rel="stylesheet" type="text/style" href="asset/style.css">
+<link rel="stylesheet" type="text/css" href="asset/reset.css">
+
+<link rel="stylesheet" type="text/css" href="asset/style3.css"/>
 </head>
 
 <body>
 
-
-<header id="mainheader">
-	<div class="container">
-
-		<a href="mainpage.html" id="logo">Tika P Gurung</a>
+	<header id="header">
+		<div class="container">
 		
-		<nav>
-			<a href="mainpage.html">About</a>
-			<a href="portfolio.html">Portfolio</a>
-			<a href="contact.html">Contact</a>
-		</nav>
-	</div>		
-</header>
+				<a href="mainpage.html" id="logo">Tika P Gurung</a>
+
+			<nav>
+				<a href="mainpage.html">About</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+		</div>		
+	</header>
+	
+	
+	
+	<div id="main-container">
+
+			<section id="left-bar">
+
+			<h2>Contact</h2>
+			
+			<form id="contact-form">
+				<ul>
+					<li>
+						<lebel for="name">Name</lebel>
+						<input type="text" name="name" id="name" placeholder="Tika P Gurung" required="required">
+					</li>
+
+					<li>
+						<lebel for="name">email</lebel>
+						<input type="text" name="email" id="email" placeholder="tpg@gmail.com" required="required">
+					</li>
+					
+					<li>
+						<lebel for="name">Phone</lebel>
+						<input type="number" name="phone" id="phone" placeholder="2023288593" required="required">
+					</li>
+						
+					<li>
+						<lebel for="name">Message</lebel>
+						<textarea id="message" name="message" required="required"></textarea>
+					</li>
+				</ul>
+					
+					<input type="submit" name="submit">
+			</form>
+				
+
+</section>
 
 
-<div class="container">
-	<div class="maincontent">
-		<h1>Contact</h1>
 		
-		<form id"contact-form">
-			<ul>
-				<li>
-				<lebel for="name">Name</lebel>
-				<input type="text" name="name" id="name" placeholder="Tika P Gurung"required="required">
-				</li>
+		<section id="right-bar">
+				<div class="connect">
+					<p>Connect With Me Here</p>
+						<img src="images/linkedin.png" alt="linkedin">
 
-				<li>
-				<lebel for="email">Email</lebel>
-				<input type="text" name="email" id="email" placeholder="eg: tikapsd@gmail.com"required="required">
-				</li>
-
-				<li>
-				<lebel for="phone">Phone</lebel>
-				<input type="number" name="phone" id="phone" placeholder="202......"required="required">
-				</li>
-
-				<li>
-				<lebel for="message">Message</lebel>
-				<textarea id="message" name="message"required="required"></textarea>
-				</li>
-			</ul>
-
-			<input type="submit" name="submit"
-
-
-		</form>
-
-
+				  		<img src="images/github.png" alt="linkedin">
+				  	
+				  		<img src="images/twitter.png" alt="linkedin">
+				</div>
+			</section>
 	</div>
 
 
 
-		<div class="sidebar">
-			<div id="connect">
-				<h2>Connect with Me</h2>
-				<img src="images/1486087019_twitter.png" class="social" alt="twitter">
-				<img src="images/1486087028_linkedin.png" class="social" alt="Linkedin">
-				<img src="images/1486086998_facebook.png" class="social" alt="Facebook">
-			
-			</div>
-			
 
-		</div>
-</div>
-		
-		<footer>
-			<div class="battom">
+
+<footer>
+		<div class="battom">
 			& Copy; Copyright 2017 Tika P Gurung
-			</div>
-
-		</footer>
+		</div>
+</footer>
 		
+
+
 
 </body>
 </html>
