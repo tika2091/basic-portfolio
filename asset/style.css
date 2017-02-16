@@ -1,7 +1,9 @@
 
 *{
+	margin:0;
+	padding:0;
 	box-sizing: border-box;
-}
+	}
 
 /*
 color codes: 
@@ -12,12 +14,14 @@ green: E1FEF3, E5FEED,D6FFEC, A7BCB2
 
 body{
 	margin:0;
-	padding: auto;
-	line-height: 34px;
+	padding:0;
+	height:100%;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	font-size: 18px;
+	font-size: 14px;
 	background-color: #eee;
-}
+	}
+
+
 
 .container{
 	width:100%;
@@ -25,7 +29,9 @@ body{
 	margin: 0 auto;
 	height:90px;
 	clear: both;
-}
+	}
+
+
 
 #main-header{
 	background-color: #ffffff;
@@ -34,25 +40,27 @@ body{
 	border-bottom: 2px solid #ccc;
 	border-color: #cccccc;
 	width:100%;
+	}
 
 
-}
 
 #logo{
 
 	width: 250px;
-	height: 90px;
+	height:70px;
 	background: #4aaaa5;
 	float:left;
 	font-family: Georgia;
 	text-align: center;
-	line-height: 90px;
-	font-size: 30px
-	line-height: 30px;
+	line-height: 60px;
+	font-size:150%;
 	font-weight: bold;
 	text-decoration: none;
 	color:White;
-}
+	padding:5px;
+	margin-top:10px;
+	border-radius:10px;
+	}
 
 
 nav{
@@ -65,24 +73,28 @@ nav{
 	}
 
 
+
 a{
 	color:#777;
 	text-decoration: none;
 	display:inline-block;
 	padding-left:15px;
 	border-height
+	}
 
-}
+
+
 
 
 #main-container{
-	width:100%;
-	max-width:960px;
-	clear: both;
+	width:960px;
+	height:100%;
 	margin:0 auto;
+	
+	}
 
 
-}
+
 
 #about-me{
 	width:250px;
@@ -94,28 +106,64 @@ a{
 	text-align: center;
 	color:#4aaaa5;
 	font-weight:700;
-}
+	font-family:georgia;
+	}
+
+
+
 
 #left-bar{
 	width: 650px;
 	margin: auto;
 	float:left;
 	background-color:#fff;
-}
+	border-radius: 10px;
+	border:2px
+	border-color:#bbb;
+	}
+
+
 
 .photo{
 	padding-left:20px;
+	padding-right:10px;
+	padding-bottom:20px;
 	float:left;
+	}
 
 
+
+.connect{
+	margin:0 auto;
+	padding-top:50px;
+	padding-left:20%;
+	}
+
+
+
+#connect-me{
+	padding-bottom: 20px;
+	padding-left:15px;
+	font-weight: bold;
+	}
+
+
+
+
+.paragraph{ 
+padding-right:20px;
+padding-left:10px;
+padding-bottom:O auto;
+line-height: 25px;
+font-color:#ccc;
 }
+ 
 
-p{ 
-font-size: 85%
-color:#777;
-padding:20px;
 
- }
+ .article{
+ 	color:#777;
+ 	}
+ 
 
 
  #right-bar{
@@ -124,28 +172,33 @@ padding:20px;
 	float:right;
 	background-color:#fff;
 	height:200px;
-
-}
-#right-bar, p{
-	font-family:georgia;
-	color: #4aaaa5;
-	text-align: center;
-	padding-top:20px;
-}
+	border-radius: 10px;
+	border: 2px, #ccc;
+	}
 
 
 
 
 footer{
 	width:100%;
-	max-width:960px;
-	margin: 0 auto;
+	margin:0;
 	height:90px;
 	clear: both;
+	background-color: #666;
+	border:2px solid black;
+	position:fixed;
+	bottom:0;
+	text-align: center;
+	padding-top:30px;
+	font-size:90%;
+	color:#ddd;
+
+	}
 
 
 
-}
+
+
 
 
 
