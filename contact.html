@@ -6,15 +6,15 @@
 <title> Basic portfolio page</title>
 <link rel="stylesheet" type="text/css" href="asset/reset.css">
 
-<link rel="stylesheet" type="text/css" href="asset/style3.css"/>
+<link rel="stylesheet" type="text/css" href="asset/style-3.css"/>
 </head>
 
 <body>
 
-	<header id="header">
+	<header id="main-header">
 		<div class="container">
 		
-				<a href="mainpage.html" id="logo">Tika P Gurung</a>
+			<a href="mainpage.html" id="logo">Tika P Gurung</a>
 
 			<nav>
 				<a href="mainpage.html">About</a>
@@ -28,62 +28,68 @@
 	
 	<div id="main-container">
 
-			<section id="left-bar">
+
+		<section class="right-bar">
+			<p id="connect-me">Connect With Me Here</p>
+				
+				<div class="connect">
+					
+					 <a href="https://www.linkedin.com/in/tika-gurung-64722995/"><img src="images/linkedin.png" alt="linkedin" width="60" height="60"></a>
+
+				  	<a href="https://github.com/tika2091"><img src="images/github.png" alt="github" width="60" height="60"></a>
+				  	
+				  	<a href="https://twitter.com/tika2091"><img src="images/twitter.png" alt="twitter" width="60" height="60"></a>
+				</div>
+		</section>
+
+
+
+
+		<section id="left-bar">
 
 			<h2>Contact</h2>
 			
-			<form id="contact-form">
+			<form class="contact-form">
 				<ul>
 					<li>
-						<lebel for="name">Name</lebel>
+						<lebel for="name">Name</lebel><br>
 						<input type="text" name="name" id="name" placeholder="Tika P Gurung" required="required">
 					</li>
 
 					<li>
-						<lebel for="name">email</lebel>
+						<lebel for="name">email</lebel><br>
 						<input type="text" name="email" id="email" placeholder="tpg@gmail.com" required="required">
 					</li>
 					
 					<li>
-						<lebel for="name">Phone</lebel>
+						<lebel for="name">Phone</lebel><br>
 						<input type="number" name="phone" id="phone" placeholder="2023288593" required="required">
 					</li>
 						
 					<li>
-						<lebel for="name">Message</lebel>
+						<lebel for="name">Message</lebel><br>
 						<textarea id="message" name="message" required="required"></textarea>
 					</li>
 				</ul>
 					
+					<div id="submit">
 					<input type="submit" name="submit">
+					</div>
 			</form>
-				
-
-</section>
+		</section>
 
 
 		
-		<section id="right-bar">
-				<div class="connect">
-					<p>Connect With Me Here</p>
-						<img src="images/linkedin.png" alt="linkedin">
-
-				  		<img src="images/github.png" alt="linkedin">
-				  	
-				  		<img src="images/twitter.png" alt="linkedin">
-				</div>
-			</section>
 	</div>
 
 
 
 
 
-<footer>
-		<div class="battom">
-			& Copy; Copyright 2017 Tika P Gurung
-		</div>
-</footer>
+	<footer>
+		&copy; Copyright 2017. Tika P Gurung
+	</footer>
+		
 		
 
 
